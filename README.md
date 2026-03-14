@@ -5,6 +5,8 @@ A series of NLP assignments exploring computational linguistics through poetry :
 Built for CMPE-257 Machine Learning at SJSU under Prof. Ali Arsanjani (Google).  
 **Team:** Ananya
 
+[Quantified Aesthetics: IEEE Paper](./IEEE_paper.pdf)
+
 ## Repository Structure
 
 ```
