@@ -3,7 +3,7 @@
 A series of NLP assignments exploring computational linguistics through poetry — from POS tagging and hybrid poem generation to topic modeling, knowledge graphs, and AI-based literary evaluation.
 
 Built for CMPE-257 Machine Learning at SJSU under Prof. Ali Arsanjani (Google).  
-**Team:** Ananya & Apoorva
+**Team:** Ananya
 
 ## Repository Structure
 
