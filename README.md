@@ -1,6 +1,6 @@
 # nlp-poetry-lab
 
-A series of NLP assignments exploring computational linguistics through poetry — from POS tagging and hybrid poem generation to topic modeling, knowledge graphs, and AI-based literary evaluation.
+A series of NLP assignments exploring computational linguistics through poetry : from POS tagging and hybrid poem generation to topic modeling, knowledge graphs, and AI-based literary evaluation.
 
 Built for CMPE-257 Machine Learning at SJSU under Prof. Ali Arsanjani (Google).  
 **Team:** Ananya
@@ -32,13 +32,13 @@ nlp-poetry-lab/
 
 ## Notebooks at a Glance
 
-### 01 — NLP for Poems (Intro)
+### 01 : NLP for Poems (Intro)
 POS substitution intro using two poets. Covers scraping, tokenization, and building a foundation for later notebooks.
 
 **Tech:** NLTK, BeautifulSoup, PoetryDB API
 
 
-### 02 — POS Substitutions & Tones: Tagore vs. Shakespeare
+### 02 : POS Substitutions & Tones: Tagore vs. Shakespeare
 Analyzes 20 poems (10 per poet) scraped from PoetryDB, extracts POS distributions, and generates hybrid poems by swapping vocabulary between poets while preserving syntactic structure.
 
 **Key outputs:**
@@ -49,7 +49,7 @@ Analyzes 20 poems (10 per poet) scraped from PoetryDB, extracts POS distribution
 **Tech:** spaCy, NLTK, PoetryDB API, pandas
 
 
-### 03 — Computational Linguistics: 4 Poets
+### 03 : Computational Linguistics: 4 Poets
 Expanded group analysis across Shakespeare, Tagore, Frost, and Dickinson — 40 poems total, 10 per poet.
 
 | Poet | Unique Verbs | Unique Nouns | Unique Adjectives |
@@ -68,7 +68,7 @@ Expanded group analysis across Shakespeare, Tagore, Frost, and Dickinson — 40 
 **Tech:** NLTK, Sentence Transformers (all-MiniLM-L6-v2), BeautifulSoup, pandas, JSON
 
 
-### 04 — Gold Standard vs. Pedestrian: AI Poetry Judge
+### 04 : Gold Standard vs. Pedestrian: AI Poetry Judge
 A 7-step pipeline that assigns a **Pushcart Prize Probability Score (0–100%)** to any input poem.
 
 **Pipeline:**
@@ -95,7 +95,7 @@ A 7-step pipeline that assigns a **Pushcart Prize Probability Score (0–100%)**
 **Tech:** spaCy, TextBlob, Gensim LDA, Google Gemini 2.0 Flash, BeautifulSoup, Matplotlib, Seaborn
 
 
-### 05 — Knowledge Graphs & Fractal Chain of Thought
+### 05 : Knowledge Graphs & Fractal Chain of Thought
 Constructs knowledge graphs from poem text using entity extraction and semantic relationships via spaCy and NetworkX. Applies Fractal Chain-of-Thought prompting for deep multi-iteration literary evaluation via Gemini.
 
 **Key outputs:**
